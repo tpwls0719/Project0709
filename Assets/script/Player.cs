@@ -66,7 +66,7 @@ public class Player : MonoBehaviour
     public void MissileUp()
     {
         missIndex++; //미사일 종류 업그레이드
-        shootInverval = shootInverval - 0.01f; //발사 간격 감소(더 빠르게 발사))
+        //shootInverval = shootInverval - 0.01f; //발사 간격 감소(더 빠르게 발사))
         if (shootInverval <= 0.1f)
         {
             shootInverval = 0.01f; //최소 발사 간격 제한
